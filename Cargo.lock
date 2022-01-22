@@ -2324,6 +2324,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "mio"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ba272f85fa0b41fc91872be579b3bbe0f56b792aa361a380eb669469f68dafb2"
+dependencies = [
+ "libc",
+ "log",
+ "miow 0.3.7",
+ "ntapi",
+ "winapi 0.3.9",
+]
+
+[[package]]
 name = "mio-extras"
 version = "2.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3995,15 +4008,18 @@ dependencies = [
  "lazy_static",
  "libc",
  "log",
+ "mio 0.8.0",
  "ndk 0.5.0",
  "ndk-glue 0.5.0",
  "ndk-sys",
  "objc",
  "parking_lot",
+ "percent-encoding",
  "raw-window-handle 0.4.2",
  "wasm-bindgen",
  "web-sys",
  "winapi 0.3.9",
+ "x11-dl",
 ]
 
 [[package]]
