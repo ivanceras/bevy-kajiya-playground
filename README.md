@@ -1,3 +1,6 @@
+
+A fork of [bevy-kajiya-playground](https://github.com/Seabass247/bevy-kajiya-playground) with small changes to make it work on linux
+
 <div align="center">
 
 # ☀️ bevy-kajiya playground
@@ -5,9 +8,8 @@
 **A example bevy application using bevy-kajiya for its renderer**
 </div>
 
-NOTE: only tested on Windows.
 
-For more context, check out the [bevy-kajiya repo](https://github.com/Seabass247/bevy-kajiya). 
+For more context, check out the [bevy-kajiya repo](https://github.com/Seabass247/bevy-kajiya).
 
 This bevy app demonstrates basic usage of the `bevy-kajiya` crate and the mesh and scene system used by `kajiya`.
 
